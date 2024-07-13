@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(dryRun=false,snippets=SnippetType.CAMELCASE,plugin={"pretty","json:target//index.json"},
-name="Verify omrbaranch login with Invalid data",glue="com.omrbranch.stepdefinition",features="src\\test\\resources"
+name="Verify omrbaranch login with valid data",glue="com.omrbranch.stepdefinition",features="src\\test\\resources"
 )
 
 public class TestRunnerClass {
