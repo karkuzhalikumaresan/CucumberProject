@@ -1,0 +1,1 @@
+file:src/test/resources/Features/TC2_SearchHotel.feature:25
